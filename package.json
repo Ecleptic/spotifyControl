@@ -1,0 +1,25 @@
+{
+  "name": "spotifyControl",
+  "version": "1.0.0",
+  "description": "Disclaimer: This project only runs on a dev machine inside my home. It's not to be used outside your local network, there are many potential security issues if you open this up to the internet",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ecleptic/spotifyControl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ecleptic/spotifyControl/issues"
+  },
+  "homepage": "https://github.com/Ecleptic/spotifyControl#readme"
+}
