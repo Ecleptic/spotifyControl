@@ -1,6 +1,4 @@
-document.addEventListener('load', (e) => {
-  console.log('loaded page')
-})
+
 window.addEventListener('load', (e) => {
   console.log('loaded page')
 })
@@ -21,7 +19,7 @@ function longPoll(params) {
 }
 
 function logIn() {
-  const client_id = env.CLIENT_ID
+  const client_id = process.env.CLIENT_ID
 
   var url = 'https://accounts.spotify.com/authorize'
   url += '?response_type=token'
